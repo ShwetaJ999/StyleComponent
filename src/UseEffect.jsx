@@ -10,7 +10,6 @@ function UseEffect() {
     useEffect(() => {
         console.log("componentDidUpdate")
         return () => {
-            //cleaning
             console.log("Unmount")
         }
     }, [content])
